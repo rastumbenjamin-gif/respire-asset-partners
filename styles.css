@@ -148,6 +148,17 @@ a {
     letter-spacing: -0.01em;
 }
 
+.logo-image {
+    height: 40px;
+    width: auto;
+    display: block;
+    transition: var(--transition-smooth);
+}
+
+.logo-image:hover {
+    opacity: 0.8;
+}
+
 .nav-links {
     display: flex;
     gap: var(--spacing-md);
@@ -834,6 +845,14 @@ a {
     color: var(--color-cream);
     margin-bottom: var(--spacing-xs);
     display: block;
+}
+
+.footer-logo {
+    height: 50px;
+    width: auto;
+    margin-bottom: var(--spacing-xs);
+    display: block;
+    filter: brightness(0) invert(1);
 }
 
 .footer-tagline {
