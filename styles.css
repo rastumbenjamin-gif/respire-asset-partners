@@ -149,7 +149,7 @@ a {
 }
 
 .logo-image {
-    height: 40px;
+    height: 60px;
     width: auto;
     display: block;
     transition: var(--transition-smooth);
@@ -916,6 +916,10 @@ a {
 
     .nav-link {
         display: none;
+    }
+
+    .logo-image {
+        height: 48px;
     }
 
     .hero {
